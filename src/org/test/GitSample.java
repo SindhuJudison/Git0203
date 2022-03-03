@@ -10,9 +10,14 @@ public class GitSample {
     System.out.println("Test two"); 
 	}
 	
+	
+	private void gitfour() {
+    System.out.println("Test four");
+	}
 	public static void main(String[] args) {
 		GitSample sample =  new GitSample();
 		sample.gitone();
 		sample.gittwo();
+		sample.gitfour();
 	}
 }
